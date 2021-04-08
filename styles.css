@@ -1,0 +1,276 @@
+body{
+    margin:0;
+}
+.box {
+    height: 400px;
+    width: 100%;
+    margin: 0px;
+    background-color:rgb(76, 149, 108);
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 30px;
+}
+.span {
+    display:inline-block;
+    vertical-align: middle;
+}
+.container {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.font1 {
+    font-family: 'Quattrocento', serif;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    padding-top: 150px;
+    
+}
+h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+}
+section{
+    top:0;
+    margin: 0px;
+    width: 100%;
+    height: 500px;
+    background: url(https://data.1freewallpapers.com/download/night-city-buildings-aerial-view-dark-art-2560x1600.jpg);
+    background-size: cover;
+    position: relative;
+overflow: hidden;
+display: flex;
+justify-content: center;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(3, 3, 3,0);
+}
+.text-wrapper{
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text-wrapper h1{
+    text-align: center;
+    vertical-align: middle;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.para{
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.btn{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.btn1{
+    background-color: #000;
+}
+.column1 {
+    float: left;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+}
+.column2 {
+    float: right;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    box-sizing: border-box;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 100px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 40px;
+    border-radius: 50%;
+    align-self: center;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #000;
+    color: white;
+    border: 2px solid white;
+    font-size: 200px;
+  }
+  .fa-instagram {
+    background: #000;
+    color: white;
+    border: 2px solid #fff;
+    font-size: 100px;
+  }
+  .footer{
+      color:#fff;
+  }
+  h3{
+      text-align: center;
+      font-size: 40px;
+      font-family: 'Noto Sans JP', sans-serif;
+  }
+  p1{
+      text-align: center;
+      vertical-align: middle;
+      font-size: 20px;
+      font-family: 'Noto Sans JP', sans-serif;
+     width: 50%; 
+     margin-left: auto;
+      margin-right: auto;
+      padding-top: 30px;
+      padding-left: 30px;
+  }
+  .center2{
+      font-size: 30px;
+      font-family: 'Noto Sans JP', sans-serif;
+      padding-left: 400px;
+      padding-bottom: 50px;
+  }
+  .icon{
+      border: none;
+      font-size: 100px;
+      width: 70%;
+      height: 100px;
+      padding-left: 200px;
+  }
+  .btn2{
+      font-size: 30px;
+      width: 40%;
+      height: 100px;
+      background-color: #fff;
+      color: black;
+      text-align: right;
+    
+      padding-right: 100px;
+      vertical-align: middle;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      border: none;
+      
+    
+  }
+  .img1{
+      width: 120px;
+      height: 68px;
+    
+  }
+  .center3{
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: right;
+    padding-right: 400px;
+    padding-bottom: 50px;
+}
+.title{
+    font-family: 'Quattrocento', serif;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    color: #000;
+    padding-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+section1{
+    top:0;
+    margin: 0px;
+    width: 100%;
+    height: 300px;
+    background: url(https://data.1freewallpapers.com/download/night-city-buildings-aerial-view-dark-art-2560x1600.jpg);
+    background-size: cover;
+    position: relative;
+overflow: hidden;
+display: flex;
+justify-content: center;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.column{
+    flex: 20%;
+    padding: 20px;
+    object-fit: cover;
+    max-width: 500px;
+   max-height: 500px;
+}
+
+div.polaroid{
+    width: 80%;
+background-color: #fff;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+margin-bottom: 25px;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.para1{
+    text-align: left;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 40px;
+}
+.animation{
+    color: blue;
+    animation-name: changecolor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes changecolor{
+    from{color: blue;}
+    to{color: red;}
+}
+
+

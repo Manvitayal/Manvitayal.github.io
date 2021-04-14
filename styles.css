@@ -129,8 +129,7 @@ justify-content: center;
   }
   .fa {
     padding: 20px;
-    font-size: 100px;
-    width: 40px;
+    font-size: 600px;
     text-align: center;
     text-decoration: none;
     margin: 10px 40px;
@@ -143,14 +142,12 @@ justify-content: center;
 .fa-facebook {
     background: #000;
     color: white;
-    border: 2px solid white;
-    font-size: 200px;
+    font-size: 600px;
   }
   .fa-instagram {
     background: #000;
     color: white;
-    border: 2px solid #fff;
-    font-size: 100px;
+    font-size: 600px;
   }
   .footer{
       color:#fff;
@@ -303,16 +300,18 @@ margin-bottom: 25px;
           height: 20px;
  
          }
-         .row1 , .row2{
-             padding: 20px;
+        .row1 , .row2{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+            padding-top: 40px;
+        
          }
          .column{
-             display: flex;
-             flex-wrap: wrap;
              flex: 100%;
-             width: 100%;
-             min-width: 300px;
-        
+             justify-content: center;
+             flex-direction: column;
          }
          .center2 {
              padding-left: 50px;
@@ -320,5 +319,11 @@ margin-bottom: 25px;
          .center3 {
              padding-right: 50px;
          }
+         div.polaroid{
+            width: 100%;
+        background-color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        margin-bottom: 25px;
+        }
 
       }
